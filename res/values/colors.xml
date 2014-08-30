@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="none_color">#00000000</color>
+    <color name="bule_overlay">#660D92DD</color>
+    <color name="album_list_feeditem_sel">#fff1f1f1</color>
+    <color name="album_list_feeditem_nor">#fffafafa</color>    
+    <color name="custom_alertdialog_transparent">#00ffffff</color>
+</resources>

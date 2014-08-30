@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.syw.avatar.CropperActivity" >
+
+    <com.syw.avatar.widget.ClipImageView
+        android:id="@+id/civ_cropper_preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.syw.avatar.widget.ClipView
+        android:id="@+id/clipview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/ll_retakephoto"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_alignParentBottom="true"
+        android:background="#e0000000" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true" >
+
+            <TextView
+                android:id="@+id/tv_cancel"
+                android:layout_width="80dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dip"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tv_retakephoto"
+                android:layout_width="80dip"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dip"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:text="@string/retake_photo"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:visibility="gone" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_use_this_cropper_photo"
+            android:layout_width="80dip"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dip"
+            android:clickable="true"
+            android:gravity="center_vertical|right"
+            android:text="@string/use_this_cropper_photo"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

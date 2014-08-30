@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Avatar</string>
+    <string name="title_btn_takephoto">拍照获取</string>
+    <string name="title_btn_localphoto">本地获取照片</string>
+    <string name="cancel">取消</string>
+    <string name="retake_photo">重拍</string>
+    <string name="use_this_cropper_photo">选取</string>
+    <string name="default_loading">正在处理&#8230;</string>
+    <string name="title_activity_localphoto">本地相册</string>
+    <string name="title_activity_cropper">图片截取</string>
+    
+</resources>
